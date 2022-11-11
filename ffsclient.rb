@@ -1,4 +1,4 @@
-class ffsclient < Formula
+class Ffsclient < Formula
 
   desc     " A cli for firefox-sync (firefox bookmarks, passwords, account, ...) "
   homepage "https://github.com/Mikescher/firefox-sync-client"
