@@ -6,7 +6,7 @@ class Ffsclient < Formula
   sha256   "98114ec9c3e2e9eb4b2bfd47caf1288c4d5216f8155b4260d85fb7d2783f7010"
 
   def install
-    bin.install "firefox-sync-client"
+    bin.install "ffsclient_macos-amd64" => "ffsclient"
   end
 
   test do
