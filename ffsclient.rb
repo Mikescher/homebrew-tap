@@ -2,8 +2,8 @@ class Ffsclient < Formula
 
   desc     " A cli for firefox-sync (firefox bookmarks, passwords, account, ...) "
   homepage "https://github.com/Mikescher/firefox-sync-client"
-  url      "https://github.com/Mikescher/firefox-sync-client/releases/download/v1.6.0/ffsclient_macos-amd64"
-  sha256   "8d030cf6feeef3150870022596330261b8e3c8bd2b3723644a1e3e8d07a8b408"
+  url      "https://github.com/Mikescher/firefox-sync-client/releases/download/v1.7.0/ffsclient_macos-amd64"
+  sha256   "4acf1cd6e4bf0c91d7802daa5b91dd986b80c14c63bd858c98400911a8ef6d58"
 
   def install
     bin.install "ffsclient_macos-amd64" => "ffsclient"
